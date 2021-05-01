@@ -1,9 +1,6 @@
 $(document).ready(function () {
   ClearInput();
 
-  // style for select and option
-  $(".seluser").niceSelect();
-
   // cmt: eventlistener for use enter in inputs
   $("#Weight , #Height").on("keydown", function (e) {
     if (e.key == "Enter") {
